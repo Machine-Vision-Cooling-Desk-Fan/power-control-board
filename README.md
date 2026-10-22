@@ -1,0 +1,1 @@
+Using KiCAD 10.0.7
