@@ -3089,7 +3089,7 @@
 	)
 	(rectangle
 		(start 74.93 71.12)
-		(end 222.25 163.83)
+		(end 226.06 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -3119,7 +3119,7 @@
 		)
 		(uuid "252ea9b9-c8c2-4c56-9bb2-1b99c18e9e11")
 	)
-	(text "TEC1-12715"
+	(text "TEC1-12715 (Heat Module)"
 		(exclude_from_sim no)
 		(at 212.09 86.36 0)
 		(effects
@@ -3505,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 33.02) (xy 149.86 33.02)
+			(xy 143.51 33.02) (xy 149.86 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3535,7 +3535,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 87.63) (xy 189.23 87.63)
+			(xy 181.61 87.63) (xy 184.15 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3555,7 +3555,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 87.63) (xy 186.69 81.28)
+			(xy 181.61 87.63) (xy 181.61 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3705,7 +3705,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 81.28) (xy 180.34 81.28)
+			(xy 181.61 81.28) (xy 175.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3735,7 +3735,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 35.56) (xy 153.67 35.56)
+			(xy 143.51 35.56) (xy 153.67 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3755,7 +3755,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 87.63) (xy 199.39 87.63)
+			(xy 191.77 87.63) (xy 194.31 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4045,16 +4045,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 27.94) (xy 149.86 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a492e500-bc76-4f1e-ae4c-4a9bcaa4c451")
-	)
-	(wire
-		(pts
 			(xy 102.87 40.64) (xy 109.22 40.64)
 		)
 		(stroke
@@ -4205,7 +4195,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 87.63) (xy 199.39 81.28)
+			(xy 194.31 87.63) (xy 194.31 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4285,7 +4275,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 81.28) (xy 204.47 81.28)
+			(xy 194.31 81.28) (xy 204.47 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4545,7 +4535,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 193.04 87.63 90)
+		(at 187.96 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4556,7 +4546,7 @@
 		(fields_autoplaced yes)
 		(uuid "022eae3d-2848-46c1-89c2-bf68fa92d33d")
 		(property "Reference" "F4"
-			(at 193.04 81.28 90)
+			(at 187.96 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4566,7 +4556,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 193.04 83.82 90)
+			(at 187.96 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4575,8 +4565,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 193.04 89.408 90)
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+			(at 187.96 89.408 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4587,7 +4577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 87.63 0)
+			(at 187.96 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4598,7 +4588,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 193.04 87.63 0)
+			(at 187.96 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5015,7 +5005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 99.06 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -5094,7 +5084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5253,7 +5243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5499,7 +5489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 154.432 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -5542,6 +5532,85 @@
 			(project "power-control-board"
 				(path "/7d94012d-711e-4ac6-a37b-a02914d38462"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40d1f428-69cb-4505-9be8-275daa89d42e")
+		(property "Reference" "#PWR01"
+			(at 156.21 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c50af16-75d2-4bdf-8ebb-d29d98debea4")
+		)
+		(instances
+			(project "power-control-board"
+				(path "/7d94012d-711e-4ac6-a37b-a02914d38462"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5737,7 +5806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 198.882 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -5817,7 +5886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_DDF0008A_SOT-8_1.6x2.9mm_P0.65mm"
 			(at 83.82 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6035,7 +6104,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 180.34 81.28 90)
+		(at 175.26 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6046,7 +6115,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f328771-a8a5-4623-adc1-ac06acc15f83")
 		(property "Reference" "#PWR08"
-			(at 184.15 81.28 0)
+			(at 179.07 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6057,7 +6126,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 176.53 81.2799 90)
+			(at 171.45 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6068,7 +6137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 81.28 0)
+			(at 175.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6079,7 +6148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 81.28 0)
+			(at 175.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6090,7 +6159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 180.34 81.28 0)
+			(at 175.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6223,7 +6292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
 			(at 25.4 64.008 90)
 			(hide yes)
 			(show_name no)
@@ -6429,84 +6498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 149.86 27.94 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "878d7994-85b2-4b63-9a68-108de6fceb46")
-		(property "Reference" "#PWR01"
-			(at 149.86 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "79bbc074-4f79-4d26-b7b7-bf9951a435c6")
-		)
-		(instances
-			(project "power-control-board"
-				(path "/7d94012d-711e-4ac6-a37b-a02914d38462"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 96.52 53.34 0)
 		(unit 1)
@@ -6540,7 +6531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 94.742 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -6779,7 +6770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 107.95 43.942 90)
 			(hide yes)
 			(show_name no)
@@ -7180,7 +7171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
 			(at 40.132 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -7535,7 +7526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 207.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7743,7 +7734,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 137.16 35.56 180)
+		(at 138.43 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7753,7 +7744,7 @@
 		(dnp no)
 		(uuid "e7f26605-7bbe-438a-b49d-54497e430ca7")
 		(property "Reference" "J1"
-			(at 137.16 26.67 0)
+			(at 138.43 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7763,7 +7754,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 137.16 29.21 0)
+			(at 138.43 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7773,7 +7764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 35.56 0)
+			(at 138.43 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7784,7 +7775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 35.56 0)
+			(at 138.43 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7795,7 +7786,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 137.16 35.56 0)
+			(at 138.43 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,7 +7921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
 			(at 138.43 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -8011,7 +8002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.292 105.41 90)
 			(hide yes)
 			(show_name no)
