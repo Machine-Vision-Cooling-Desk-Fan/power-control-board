@@ -44,3 +44,6 @@ fp-info-cache
 
 # MacOS
 .DS_Store
+
+# Lockfiles
+*.lck
